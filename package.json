@@ -1,0 +1,19 @@
+{
+  "name": "trading-ai-agent",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "TradingView AI agent powered by TVControl MCP + multi-provider LLM analysis",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev":   "node --watch src/index.js"
+  },
+  "dependencies": {
+    "openai":                       "7.3.0",
+    "groq-sdk":                     "1.5.0",
+    "dotenv":                       "16.4.5",
+    "@modelcontextprotocol/sdk":    "1.29.0"
+  },
+  "engines": {
+    "node": ">=18.14.1"
+  }
+}
